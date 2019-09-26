@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        window.addEventListener("input",function(e){
+            if(e.target.id=="conceiving_date_selector"){
+                alert(e.target.value)
+            }
+        })   
+        function onSelectHandlerAirApi(fdate,date){
+            var cDate=new Date()
+            var diff=cDate-date
+            var oneDay=1000*60*60*24
+            var numberOfDays=diff/oneDay
+            var numberOfWeeks=Math.round(numberOfDays/7)
+            alert(numberOfWeeks)
+        } 
+        onSelectHandlerAirApi("08/30/2019",new Date("08/30/2019"))
+    </script>
+
+</body>
+</html>

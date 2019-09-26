@@ -1,0 +1,46 @@
+{
+  "name": "ProfileApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-reanimated": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@eva-design/eva": "^1.0.1",
+    "@react-native-community/cameraroll": "^1.2.1",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@ui-kitten/eva-icons": "^4.2.0-beta.1",
+    "axios": "^0.19.0",
+    "babel-jest": "^24.9.0",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.3.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "mongoose": "^5.6.13",
+    "native-base": "^2.13.8",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-svg": "^9.9.3",
+    "react-native-ui-kitten": "^4.2.0-beta.2",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "3",
+    "react-redux": "^7.1.1",
+    "react-test-renderer": "16.8.6",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
