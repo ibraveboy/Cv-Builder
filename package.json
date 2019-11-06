@@ -28,7 +28,7 @@
     "express": "^4.17.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
-    "mongoose": "^5.6.13",
+    "mongoose": "^5.7.5",
     "native-base": "^2.13.8",
     "react-native-image-picker": "^1.1.0",
     "react-native-svg": "^9.9.3",
