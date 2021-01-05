@@ -21,7 +21,7 @@
     "@react-native-community/cameraroll": "^1.2.1",
     "@react-native-community/eslint-config": "^0.0.5",
     "@ui-kitten/eva-icons": "^4.2.0-beta.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-jest": "^24.9.0",
     "body-parser": "^1.19.0",
     "eslint": "^6.3.0",
